@@ -38,6 +38,31 @@
             };
         };
     </script>
+    <style>
+        .accordion {
+          background-color: #eee;
+          color: #444;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: ;
+          text-align: left;
+          outline: none;
+          font-size: 15px;
+          transition: 0.4s;
+        }
+        
+        .active, .accordion:hover {
+          background-color: #ccc; 
+        }
+        
+        .panel {
+          padding: 0 18px;
+          display: ;
+          background-color: white;
+          overflow: hidden;
+        }
+        </style>
 </head>
 <body>
     <div class="container digitizing">
@@ -120,49 +145,24 @@
             </center>
         </div>
     </nav>
+    
     <br>
-    <div class="container">
-        <div class="row">
-            <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Our Service 1</h5>
-                    <small>3 days ago</small>
-                  </div>
-                  <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quod ut itaque temporibus corrupti aut beatae vero placeat at sed voluptate consequatur quos est autem quibusdam, dolorum porro, consectetur ipsum..</p>
-                  <small>
-                      <div class="btn btn-success">
-                          Avail Service
-                      </div>
-                  </small>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Our Service 2</h5>
-                    <small class="text-muted">3 days ago</small>
-                  </div>
-                  <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quod ut itaque temporibus corrupti aut beatae vero placeat at sed voluptate consequatur quos est autem quibusdam, dolorum porro, consectetur ipsum..</p>
-                  <small class="text-muted">
-                      <div class="btn btn-success">
-                          Avail Service
-                      </div>
-                  </small>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Our Service 3</h5>
-                    <small class="text-muted">3 days ago</small>
-                  </div>
-                  <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quod ut itaque temporibus corrupti aut beatae vero placeat at sed voluptate consequatur quos est autem quibusdam, dolorum porro, consectetur ipsum..</p>
-                  <small class="text-muted">
-                      <div class="btn btn-success">
-                          Avail Service
-                      </div>
-                  </small>
-                </a>
-              </div>
-        </div>
-    </div>
+    <h2>Accordion</h2>
+
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
     <br>
     <footer>
         <div class="footer1">
@@ -177,7 +177,7 @@
         </div>
         <div class="footer2">
             <input type="text" placeholder="enter email address" autocomplete="off" class="input-email">
-            <i class="fa fa-paper-plane" aria-hidden="true" class="submit" style="display: none;"></i>
+            <i class="fa fa-paper-plane" aria-hidden="true" class="submit" style="display: ;"></i>
     
             <input type="button" value="submit" class="abcem">
     
