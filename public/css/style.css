@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+.main-box{
+    filter: blur(50px);
+}
+.digitizing{
+    height: auto;
+    padding-top:10px ;
+    margin-bottom: 10px;
+    align-items: center;
+}
+nav{
+    background-color: rgba(39, 39, 44,0.4) !important;
+    z-index: 1000000;
+}
+.navbar-brand{
+    font-family: 'Metal Mania', cursive;
+    color: #fff !important;
+}
+nav ul li a{
+    color: #e4d285 !important;
+    margin-right: 25px !important;
+    text-transform: uppercase;
+}
+
+
+.brand{
+    text-transform: uppercase;
+}
+.content{
+    margin-top: 50px;
+    min-width: 200px;
+    width: auto;
+}
+.content-description{
+    text-align: justify;
+    font-weight: 500;
+    font-size: larger;
+    background-color: beige;
+    padding: 10px;
+    border: dashed 1px green;
+    margin-top: 20px;
+    height: auto;
+    overflow: hidden;
+}
+.btn-sm{
+    font-size: 9px !important;
+    margin-left: 10px;
+    margin-top: 0px !important;
+}
+.popup{
+    min-width: 290px;
+    width: auto;
+    border: solid 2px #ff89;
+    height: auto;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: bisque;
+    min-height: 200px;
+    height: auto;
+    z-index: 1000000;
+    display: none;
+    object-fit: cover;
+}
+.popupAdd{
+    display: block;
+}
+.header{
+    border-bottom: 1px solid #000;
+}
+.popup-content{
+    padding: 20px;
+}
+.disappear{
+    display: none;
+}
+.card-img-top{
+    text-align: center;
+    padding-top: 10px;
+
+}
+.card-title{
+    border-bottom: 1px solid #000 !important;
+    text-align: center;
+}
+.card-img-top i {
+    font-size: 102px;
+}
+.card-img-top i:hover {
+    color: blue;
+}
+a.btn-primary:hover{
+    background-color: blue;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: black !important;
+    width: 20px !important;
+    height: 20px !important;
+    padding:20px !important;
+    margin:20px;
+    border-radius: 30px;
+}
+.carousel-control-prev-icon:hover,.carousel-control-next-icon:hover{
+    background-color: darkcyan !important;
+}
+.active-nav-item{
+    background-color: rgb(99, 212, 96) !important;
+    border-radius: 4px !important;
+
+
+}
+.our-services{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 30px;
+    background-image: linear-gradient(#a8c0ff,#3f2b96);
+    border-radius: 20px;
+    align-items: center;
+    margin: 20px;
+    min-width:380px;
+    width: auto;
+    margin-bottom: 30px !important;
+
+}
+.image{
+    flex: 2;
+    width: 200px;
+    margin-left: 40px;
+   
+}
+.context{
+    flex: 3;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+.card{
+    width:22rem; margin-right: 20px; margin-bottom:10px
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    font-size: 12px;
+    height: 70px;
+  }
+  
+  .tablink:hover {
+    background-color: rgb(230, 216, 216);
+  }
+  .tablink:focus{
+      outline: #8b6f81;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: auto;
+  }
+  
+ 
+  .card-zoom-image:hover{
+    opacity: 0.5;
+    transition: 1s;
+    background-color: #1f4037;
+    padding: 20px;
+    outline: #1a2925;
+  }
+  
+    .badge{
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        background-color: #1f4037;
+        padding: 20px;
+        outline: #1a2925;
+    
+    }
+    footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: #000;
+        justify-content: centers;
+        line-height: 30px;
+    }
+    footer .footer1,.footer2,.footer3{
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    footer .footer1 span{
+        margin: 15px;
+        font-size: 12px;
+        font-weight: bolder;
+    }
+    .footer3 span{
+        padding: 10px;
+        color: grey;
+    }
+    input[type='text'],input[type='button']{
+        border-radius: 0px;
+        outline: none;
+        border: none;
+        height: 40px;
+        margin-bottom: 4px;
+    }
+    input[type='text']{
+        width: 30%;
+        padding: 20px;
+        letter-spacing: 5px;
+        transition: 0.3s ease;
+        font-family: 'Metal Mania', cursive;
+
+    }
+    input[type='text']:focus{
+        letter-spacing: 1px;
+    }
+
+    input[type='button']{
+        width: 10%;
+        background-color: #1a2925;
+        color: #fff;
+        font-weight: bolder;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    @media screen and (max-width: 520px) {
+        .our-services {
+            display: none;
+        }
+    }
+
+
+
+@media screen and (max-width: 480px) {
+    .our-services{
+        display: flex;
+        min-width: 80%;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    
+    .card{
+        width: 420px !important;
+    }
+    .content-description{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 90% !important;
+        margin:20px !important;
+        height: auto !important;
+    }
+    #Home {background-image: linear-gradient(#2980B9,#6DD5FA)}
+  #News {background-image: linear-gradient(#FF0099,#8b6f81)}
+  #Contact {
+    background: #aa4b6b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #aa4b6b, #6b6b83, #3b8d99); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #aa4b6b, #6b6b83, #3b8d99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  #About {
+    background: #1f4037; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #1f4037, #99f2c8); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #1f4037, #99f2c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .digitizing{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .digitizing [class^="col-"], [class*=" col-"]{
+      width: 100%;
+      text-align: center ;
+      border-bottom: 1px solid #a8c0ff;
+      line-height: 50px;
+
+  }
+  .digitizing [class^="col-"]:last-child, [class*=" col-"]:last-child{
+      border-bottom: none;
+  }
+
+}
+
+@media screen and (max-width: 720px) {
+    footer .footer1{
+        display: flex;
+        flex-direction: column;
+
+    }
+    input[type='button']{
+        font-size: 12px;
+    }
+}
