@@ -188,6 +188,8 @@ a.btn-primary:hover{
     
     }
     footer{
+        position: relative;
+        bottom: 0%;
         width: 100%;
         height: auto;
         display: flex;
@@ -213,7 +215,7 @@ a.btn-primary:hover{
         padding: 10px;
         color: grey;
     }
-    input[type='text'],input[type='button']{
+    input[type='text'],input[type='button'],.submit{
         border-radius: 0px;
         outline: none;
         border: none;
@@ -232,7 +234,7 @@ a.btn-primary:hover{
         letter-spacing: 1px;
     }
 
-    input[type='button']{
+    input[type='button'],.submit{
         width: 10%;
         background-color: #1a2925;
         color: #fff;
@@ -295,6 +297,11 @@ a.btn-primary:hover{
   .digitizing [class^="col-"]:last-child, [class*=" col-"]:last-child{
       border-bottom: none;
   }
+  input[type="button"]{
+    font-size: 8px;
+    width: 12%;
+}
+  
 
 }
 
@@ -302,7 +309,12 @@ a.btn-primary:hover{
     footer .footer1{
         display: flex;
         flex-direction: column;
+        
 
+    }
+    footer .footer1 span{
+        border-bottom: 2px solid #a548c299;
+        width: 100%;
     }
     input[type='button']{
         font-size: 12px;
